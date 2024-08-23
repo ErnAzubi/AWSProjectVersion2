@@ -32,10 +32,10 @@
             'profile' => 'default',
             'region'  => 'us-east-2',
             'version' => 'latest',
-            'credentials' => [
-                'key'    => 'xxx',
-                'secret' => 'xxx',
-            ],
+            // 'credentials' => [
+            //     'key'    => 'xxx',
+            //     'secret' => 'xxx',
+            // ],
         ]);
 
         $marshaler = new Marshaler();
@@ -62,7 +62,7 @@
       ?>
     </tbody>
   </table>
-
+<!-- Fun time!!! -->
   <style>
     .styled-table {
         border-collapse: collapse;
