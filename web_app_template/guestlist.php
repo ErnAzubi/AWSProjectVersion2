@@ -33,11 +33,12 @@
             'region'  => 'us-east-2',
             'version' => 'latest',
             // 'credentials' => [
-            //     'key'    => 'xxx',
-            //     'secret' => 'xxx',
+            //     'key'    => '',
+            //     'secret' => '',
             // ],
         ]);
 
+        //app 
         $marshaler = new Marshaler();
         $tableName = 'GuestBook';
 
